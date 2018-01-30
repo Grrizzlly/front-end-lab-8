@@ -1,0 +1,132 @@
+
+
+body {
+background: $main_bg_color;
+   
+}
+
+#content {
+  width: 960px;
+  margin: 0 auto;
+  background: $content_bg_color;
+    padding: 20px;
+    
+}
+
+h1 {
+text-align: center;
+    color: $headers_color;
+    text-transform: $trans_text;
+}
+
+h2{
+color:$headers_color;
+    
+}
+p, table{
+color: $text_color;
+}
+a{
+    color: $a_color;
+}
+
+img{
+border: 2px solid $headers_color;
+}
+
+.img-left{
+float:left;
+    margin: 7px 7px 7px 0;
+}
+
+.img-right{
+float:right;
+    margin: 20px 0px 0px 7px;
+}
+
+@mixin blocks_style($width) {
+background-color: $blocks_bg_color;
+padding: 15px;
+margin-right: 10px;
+margin-top: 3px;
+width: $width;
+}
+
+caption{
+text-align: right;
+    color:black;
+}
+
+th{
+background-color: $table_header_color; 
+    padding: 10px;
+    border-right: 1px solid white;
+font-weight: normal;
+    text-transform: uppercase;
+    color: black;
+    text-align: left;
+    
+}
+td{ 
+border-bottom: 1px solid $table_header_color;
+  padding: 10px; 
+}
+
+table{
+background-color: $table_body_color;
+  border-collapse: collapse;  
+    
+}
+form {
+    width: 100%;
+}
+#p_form{
+color: $response_text_color;
+    margin: 10px 0;
+    padding: 0;
+}
+
+
+.name_field{
+float: left;
+    width: 50%;
+}
+
+.surname_field{
+float: right;
+    width: 50%;
+}
+
+.email_field, .mark_field, .response_field{
+width: 100%;
+}
+input, textarea{
+width: inherit;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  padding: 5px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  padding: 5px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  padding: 5px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  padding: 5px;
+}
+
+button{
+ color: $btn_text_color;
+    background-color: transparent;
+    margin: 10px auto;
+  text-transform: uppercase;
+width: 30%;
+    font-size: 20px;
+    height: 50px;
+  padding: .5em 2em;
+  outline: none;
+  border: 1px solid;
+  border-radius: 1px;
+}

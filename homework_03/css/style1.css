@@ -1,0 +1,113 @@
+body {
+  background: #dcbb9a; }
+
+#content {
+  width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px; }
+
+h1 {
+  text-align: center;
+  color: #893c00;
+  text-transform: none; }
+
+h2 {
+  color: #893c00; }
+
+p, table {
+  color: #000000; }
+
+a {
+  color: #3d70a1; }
+
+img {
+  border: 2px solid #893c00; }
+
+.img-left {
+  float: left;
+  margin: 7px 7px 7px 0; }
+
+.img-right {
+  float: right;
+  margin: 20px 0px 0px 7px; }
+
+caption {
+  text-align: right;
+  color: black; }
+
+th {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-right: 1px solid white;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: black;
+  text-align: left; }
+
+td {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px; }
+
+table {
+  background-color: #ffffff;
+  border-collapse: collapse; }
+
+form {
+  width: 100%; }
+
+#p_form {
+  color: #808080;
+  margin: 10px 0;
+  padding: 0; }
+
+.name_field {
+  float: left;
+  width: 50%; }
+
+.surname_field {
+  float: right;
+  width: 50%; }
+
+.email_field, .mark_field, .response_field {
+  width: 100%; }
+
+input, textarea {
+  width: inherit; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  padding: 5px; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  padding: 5px; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  padding: 5px; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  padding: 5px; }
+
+button {
+  color: #3d70a1;
+  background-color: transparent;
+  margin: 10px auto;
+  text-transform: uppercase;
+  width: 30%;
+  font-size: 20px;
+  height: 50px;
+  padding: .5em 2em;
+  outline: none;
+  border: 1px solid;
+  border-radius: 1px; }
+
+.brief {
+  background-color: #fadcba;
+  padding: 15px;
+  margin-right: 10px;
+  margin-top: 3px;
+  width: 425px;
+  float: left; }

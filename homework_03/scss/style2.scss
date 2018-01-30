@@ -1,0 +1,7 @@
+@import "variables2";
+@import "main";
+
+.brief{
+@include blocks_style(auto);
+
+}

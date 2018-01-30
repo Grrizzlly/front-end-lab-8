@@ -1,0 +1,7 @@
+@import "variables1";
+@import "main";
+
+.brief{
+@include blocks_style(425px);
+    float: left;
+}
