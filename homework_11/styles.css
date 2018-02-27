@@ -1,0 +1,47 @@
+
+
+ul, li{
+list-style-type: none;
+    
+}
+
+li{
+transition: 0.4s;
+}
+
+p:hover{
+background-color: gainsboro;
+    cursor: pointer;
+}
+
+.folder>ul{
+display: none;
+}
+
+.folder span{
+display: none;
+}
+
+.active{
+display: block !important; 
+}
+
+.folder i{
+    color: yellow;
+}
+
+.file i{
+color: gray;
+}
+
+span{
+font-style: italic;
+}
+
+.open>ul {
+  display: block;
+}
+
+.open>span{
+display: block;
+}
